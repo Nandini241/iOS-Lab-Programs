@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1E84C028570BDA006FEAC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E84BF28570BDA006FEAC3 /* AppDelegate.swift */; };
+		3F1E84C228570BDA006FEAC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E84C128570BDA006FEAC3 /* SceneDelegate.swift */; };
+		3F1E84C428570BDA006FEAC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E84C328570BDA006FEAC3 /* ViewController.swift */; };
+		3F1E84C728570BDA006FEAC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E84C528570BDA006FEAC3 /* Main.storyboard */; };
+		3F1E84CA28570BDA006FEAC3 /* Exp4_BounceBall_Animation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E84C828570BDA006FEAC3 /* Exp4_BounceBall_Animation.xcdatamodeld */; };
+		3F1E84CC28570BDD006FEAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E84CB28570BDD006FEAC3 /* Assets.xcassets */; };
+		3F1E84CF28570BDD006FEAC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E84CD28570BDD006FEAC3 /* LaunchScreen.storyboard */; };
+		3F1E84DA28570BDD006FEAC3 /* Exp4_BounceBall_AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E84D928570BDD006FEAC3 /* Exp4_BounceBall_AnimationTests.swift */; };
+		3F1E84E428570BDD006FEAC3 /* Exp4_BounceBall_AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E84E328570BDD006FEAC3 /* Exp4_BounceBall_AnimationUITests.swift */; };
+		3F1E84E628570BDD006FEAC3 /* Exp4_BounceBall_AnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1E84E528570BDD006FEAC3 /* Exp4_BounceBall_AnimationUITestsLaunchTests.swift */; };
+		3F1E84F328570D33006FEAC3 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F1E84F228570D33006FEAC3 /* photo.jpg */; };
+		3F4E8EC42863047F0006A396 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4E8EC32863047F0006A396 /* ball.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F1E84D628570BDD006FEAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1E84B428570BDA006FEAC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1E84BB28570BDA006FEAC3;
+			remoteInfo = "Exp4-BounceBall Animation";
+		};
+		3F1E84E028570BDD006FEAC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F1E84B428570BDA006FEAC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F1E84BB28570BDA006FEAC3;
+			remoteInfo = "Exp4-BounceBall Animation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F1E84BC28570BDA006FEAC3 /* Exp4-BounceBall Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exp4-BounceBall Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1E84BF28570BDA006FEAC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F1E84C128570BDA006FEAC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F1E84C328570BDA006FEAC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F1E84C628570BDA006FEAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F1E84C928570BDA006FEAC3 /* Exp4_BounceBall_Animation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Exp4_BounceBall_Animation.xcdatamodel; sourceTree = "<group>"; };
+		3F1E84CB28570BDD006FEAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F1E84CE28570BDD006FEAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F1E84D028570BDD006FEAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F1E84D528570BDD006FEAC3 /* Exp4-BounceBall AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Exp4-BounceBall AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1E84D928570BDD006FEAC3 /* Exp4_BounceBall_AnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exp4_BounceBall_AnimationTests.swift; sourceTree = "<group>"; };
+		3F1E84DF28570BDD006FEAC3 /* Exp4-BounceBall AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Exp4-BounceBall AnimationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1E84E328570BDD006FEAC3 /* Exp4_BounceBall_AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exp4_BounceBall_AnimationUITests.swift; sourceTree = "<group>"; };
+		3F1E84E528570BDD006FEAC3 /* Exp4_BounceBall_AnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exp4_BounceBall_AnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3F1E84F228570D33006FEAC3 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
+		3F4E8EC32863047F0006A396 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = ../../../ball.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1E84B928570BDA006FEAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1E84D228570BDD006FEAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1E84DC28570BDD006FEAC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F1E84B328570BDA006FEAC3 = {
+			isa = PBXGroup;
+			children = (
+				3F1E84BE28570BDA006FEAC3 /* Exp4-BounceBall Animation */,
+				3F1E84D828570BDD006FEAC3 /* Exp4-BounceBall AnimationTests */,
+				3F1E84E228570BDD006FEAC3 /* Exp4-BounceBall AnimationUITests */,
+				3F1E84BD28570BDA006FEAC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1E84BD28570BDA006FEAC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1E84BC28570BDA006FEAC3 /* Exp4-BounceBall Animation.app */,
+				3F1E84D528570BDD006FEAC3 /* Exp4-BounceBall AnimationTests.xctest */,
+				3F1E84DF28570BDD006FEAC3 /* Exp4-BounceBall AnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1E84BE28570BDA006FEAC3 /* Exp4-BounceBall Animation */ = {
+			isa = PBXGroup;
+			children = (
+				3F1E84BF28570BDA006FEAC3 /* AppDelegate.swift */,
+				3F1E84C128570BDA006FEAC3 /* SceneDelegate.swift */,
+				3F1E84C328570BDA006FEAC3 /* ViewController.swift */,
+				3F1E84C528570BDA006FEAC3 /* Main.storyboard */,
+				3F4E8EC32863047F0006A396 /* ball.png */,
+				3F1E84F228570D33006FEAC3 /* photo.jpg */,
+				3F1E84CB28570BDD006FEAC3 /* Assets.xcassets */,
+				3F1E84CD28570BDD006FEAC3 /* LaunchScreen.storyboard */,
+				3F1E84D028570BDD006FEAC3 /* Info.plist */,
+				3F1E84C828570BDA006FEAC3 /* Exp4_BounceBall_Animation.xcdatamodeld */,
+			);
+			path = "Exp4-BounceBall Animation";
+			sourceTree = "<group>";
+		};
+		3F1E84D828570BDD006FEAC3 /* Exp4-BounceBall AnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1E84D928570BDD006FEAC3 /* Exp4_BounceBall_AnimationTests.swift */,
+			);
+			path = "Exp4-BounceBall AnimationTests";
+			sourceTree = "<group>";
+		};
+		3F1E84E228570BDD006FEAC3 /* Exp4-BounceBall AnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1E84E328570BDD006FEAC3 /* Exp4_BounceBall_AnimationUITests.swift */,
+				3F1E84E528570BDD006FEAC3 /* Exp4_BounceBall_AnimationUITestsLaunchTests.swift */,
+			);
+			path = "Exp4-BounceBall AnimationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1E84BB28570BDA006FEAC3 /* Exp4-BounceBall Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1E84E928570BDD006FEAC3 /* Build configuration list for PBXNativeTarget "Exp4-BounceBall Animation" */;
+			buildPhases = (
+				3F1E84B828570BDA006FEAC3 /* Sources */,
+				3F1E84B928570BDA006FEAC3 /* Frameworks */,
+				3F1E84BA28570BDA006FEAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Exp4-BounceBall Animation";
+			productName = "Exp4-BounceBall Animation";
+			productReference = 3F1E84BC28570BDA006FEAC3 /* Exp4-BounceBall Animation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F1E84D428570BDD006FEAC3 /* Exp4-BounceBall AnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1E84EC28570BDD006FEAC3 /* Build configuration list for PBXNativeTarget "Exp4-BounceBall AnimationTests" */;
+			buildPhases = (
+				3F1E84D128570BDD006FEAC3 /* Sources */,
+				3F1E84D228570BDD006FEAC3 /* Frameworks */,
+				3F1E84D328570BDD006FEAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1E84D728570BDD006FEAC3 /* PBXTargetDependency */,
+			);
+			name = "Exp4-BounceBall AnimationTests";
+			productName = "Exp4-BounceBall AnimationTests";
+			productReference = 3F1E84D528570BDD006FEAC3 /* Exp4-BounceBall AnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F1E84DE28570BDD006FEAC3 /* Exp4-BounceBall AnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1E84EF28570BDD006FEAC3 /* Build configuration list for PBXNativeTarget "Exp4-BounceBall AnimationUITests" */;
+			buildPhases = (
+				3F1E84DB28570BDD006FEAC3 /* Sources */,
+				3F1E84DC28570BDD006FEAC3 /* Frameworks */,
+				3F1E84DD28570BDD006FEAC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1E84E128570BDD006FEAC3 /* PBXTargetDependency */,
+			);
+			name = "Exp4-BounceBall AnimationUITests";
+			productName = "Exp4-BounceBall AnimationUITests";
+			productReference = 3F1E84DF28570BDD006FEAC3 /* Exp4-BounceBall AnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F1E84B428570BDA006FEAC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					3F1E84BB28570BDA006FEAC3 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					3F1E84D428570BDD006FEAC3 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3F1E84BB28570BDA006FEAC3;
+					};
+					3F1E84DE28570BDD006FEAC3 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 3F1E84BB28570BDA006FEAC3;
+					};
+				};
+			};
+			buildConfigurationList = 3F1E84B728570BDA006FEAC3 /* Build configuration list for PBXProject "Exp4-BounceBall Animation" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F1E84B328570BDA006FEAC3;
+			productRefGroup = 3F1E84BD28570BDA006FEAC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1E84BB28570BDA006FEAC3 /* Exp4-BounceBall Animation */,
+				3F1E84D428570BDD006FEAC3 /* Exp4-BounceBall AnimationTests */,
+				3F1E84DE28570BDD006FEAC3 /* Exp4-BounceBall AnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1E84BA28570BDA006FEAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1E84F328570D33006FEAC3 /* photo.jpg in Resources */,
+				3F4E8EC42863047F0006A396 /* ball.png in Resources */,
+				3F1E84CF28570BDD006FEAC3 /* LaunchScreen.storyboard in Resources */,
+				3F1E84CC28570BDD006FEAC3 /* Assets.xcassets in Resources */,
+				3F1E84C728570BDA006FEAC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1E84D328570BDD006FEAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1E84DD28570BDD006FEAC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F1E84B828570BDA006FEAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1E84CA28570BDA006FEAC3 /* Exp4_BounceBall_Animation.xcdatamodeld in Sources */,
+				3F1E84C428570BDA006FEAC3 /* ViewController.swift in Sources */,
+				3F1E84C028570BDA006FEAC3 /* AppDelegate.swift in Sources */,
+				3F1E84C228570BDA006FEAC3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1E84D128570BDD006FEAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1E84DA28570BDD006FEAC3 /* Exp4_BounceBall_AnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1E84DB28570BDD006FEAC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1E84E428570BDD006FEAC3 /* Exp4_BounceBall_AnimationUITests.swift in Sources */,
+				3F1E84E628570BDD006FEAC3 /* Exp4_BounceBall_AnimationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F1E84D728570BDD006FEAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1E84BB28570BDA006FEAC3 /* Exp4-BounceBall Animation */;
+			targetProxy = 3F1E84D628570BDD006FEAC3 /* PBXContainerItemProxy */;
+		};
+		3F1E84E128570BDD006FEAC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F1E84BB28570BDA006FEAC3 /* Exp4-BounceBall Animation */;
+			targetProxy = 3F1E84E028570BDD006FEAC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F1E84C528570BDA006FEAC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1E84C628570BDA006FEAC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F1E84CD28570BDD006FEAC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1E84CE28570BDD006FEAC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F1E84E728570BDD006FEAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F1E84E828570BDD006FEAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1E84EA28570BDD006FEAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Exp4-BounceBall Animation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-9BTRCE022-NandiniMudaliyar.Exp4-BounceBall-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F1E84EB28570BDD006FEAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Exp4-BounceBall Animation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-9BTRCE022-NandiniMudaliyar.Exp4-BounceBall-Animation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F1E84ED28570BDD006FEAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-9BTRCE022-NandiniMudaliyar.Exp4-BounceBall-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Exp4-BounceBall Animation.app/Exp4-BounceBall Animation";
+			};
+			name = Debug;
+		};
+		3F1E84EE28570BDD006FEAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-9BTRCE022-NandiniMudaliyar.Exp4-BounceBall-AnimationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Exp4-BounceBall Animation.app/Exp4-BounceBall Animation";
+			};
+			name = Release;
+		};
+		3F1E84F028570BDD006FEAC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-9BTRCE022-NandiniMudaliyar.Exp4-BounceBall-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Exp4-BounceBall Animation";
+			};
+			name = Debug;
+		};
+		3F1E84F128570BDD006FEAC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-9BTRCE022-NandiniMudaliyar.Exp4-BounceBall-AnimationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Exp4-BounceBall Animation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F1E84B728570BDA006FEAC3 /* Build configuration list for PBXProject "Exp4-BounceBall Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1E84E728570BDD006FEAC3 /* Debug */,
+				3F1E84E828570BDD006FEAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1E84E928570BDD006FEAC3 /* Build configuration list for PBXNativeTarget "Exp4-BounceBall Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1E84EA28570BDD006FEAC3 /* Debug */,
+				3F1E84EB28570BDD006FEAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1E84EC28570BDD006FEAC3 /* Build configuration list for PBXNativeTarget "Exp4-BounceBall AnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1E84ED28570BDD006FEAC3 /* Debug */,
+				3F1E84EE28570BDD006FEAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1E84EF28570BDD006FEAC3 /* Build configuration list for PBXNativeTarget "Exp4-BounceBall AnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1E84F028570BDD006FEAC3 /* Debug */,
+				3F1E84F128570BDD006FEAC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F1E84C828570BDA006FEAC3 /* Exp4_BounceBall_Animation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F1E84C928570BDA006FEAC3 /* Exp4_BounceBall_Animation.xcdatamodel */,
+			);
+			currentVersion = 3F1E84C928570BDA006FEAC3 /* Exp4_BounceBall_Animation.xcdatamodel */;
+			path = Exp4_BounceBall_Animation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F1E84B428570BDA006FEAC3 /* Project object */;
+}
